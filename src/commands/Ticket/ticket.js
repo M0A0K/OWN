@@ -137,9 +137,9 @@ const panelMessage = interaction.options.getString("panel_message") || "Click th
 const dmOnClose = interaction.options.getBoolean("dm_on_close") !== false;
 
             const setupEmbed = createEmbed({ 
-                title: "Support Tickets", 
+                title: "OWNVERSE NETWORK — SUPPORT", 
 description: panelMessage,
-                color: getColor('info')
+                color: getColor('primary')
             });
 
             const ticketButton = new ActionRowBuilder().addComponents(
@@ -147,7 +147,7 @@ description: panelMessage,
                     .setCustomId("create_ticket")
 .setLabel(buttonLabel)
                     .setStyle(ButtonStyle.Primary)
-                    .setEmoji("📩"),
+                    .setEmoji("🎫"),
             );
 
             try {
