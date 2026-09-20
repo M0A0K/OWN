@@ -23,9 +23,9 @@ export const botConfig = {
     // 5 = Competing
     activities: [
       {
-        name: "Custom Status", // required by Discord API, not shown in the client
+        name: "OwnVerse Network", // required by Discord API, not shown in the client
         state: "mc.ownverse.net 19132",     // this is what people actually see
-        type: 4,               // Custom
+        type: 0,               // Custom
       },
     ],
   },
@@ -141,17 +141,17 @@ export const botConfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "OwnVerse Bot",
+      text: "OwnVerse Network • mc.ownverse.net",
       // Footer icon URL (null = no icon).
-      icon: null,
+      icon: "https://cdn.discordapp.com/attachments/1424361954809479209/1551115174935662603/Hn.png?ex=6ab0cc14&is=6aaf7a94&hm=020f3eca7bff5fce0c10575a01c0ff32b7d558c2f7ccdf271a87229df590320b&",
     },
     // Default thumbnail URL for embeds (null = no thumbnail).
-    thumbnail: null,
+    thumbnail: "https://cdn.discordapp.com/attachments/1424361954809479209/1551115174935662603/Hn.png?ex=6ab0cc14&is=6aaf7a94&hm=020f3eca7bff5fce0c10575a01c0ff32b7d558c2f7ccdf271a87229df590320b&",
     author: {
       // Optional default embed author block.
-      name: null,
-      icon: null,
-      url: null,
+      name: "OwnVerse Network",
+      icon: "https://cdn.discordapp.com/attachments/1424361954809479209/1551115174935662603/Hn.png?ex=6ab0cc14&is=6aaf7a94&hm=020f3eca7bff5fce0c10575a01c0ff32b7d558c2f7ccdf271a87229df590320b&",
+      url: "https://discord.gg/WS6nnzeeKF",
     },
   },
 
@@ -302,7 +302,7 @@ export const botConfig = {
   // =========================
   verification: {
     // Message shown when posting the verification panel.
-    defaultMessage: "Click the button below to verify yourself and gain access to the server!",
+    defaultMessage: "Welcome to OwnVerse Network!\n\nClick the button below to verify your account and gain access to the server!",
 
     // Text on the verification button.
     defaultButtonText: "Verify",
